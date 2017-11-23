@@ -1,0 +1,112 @@
+/* BODY/SIDEBAR/MAIN POSITIONING */
+
+body {
+	margin: 0;
+	font-family: $font-style;
+	-webkit-font-smoothing: antialiased;
+	background-color: $background-color;
+	color: $font-color;
+}
+
+h1, h2, h3, h4, {
+	font-family: $heading-font;
+}
+
+aside {
+	float: left;
+	min-width: 16%;
+}
+
+main {
+	padding-top: 130px;
+	overflow: hidden;
+}
+
+/* GENERAL STYLES */
+
+.hidden {
+	display: none;
+}
+
+.panel, img, .app-desc {
+	background-color: $panel-color;
+	border-radius: 4px;
+}
+
+a {
+	color: $font-color;
+	text-decoration: none;
+}
+
+/* MAIN */
+
+nav {
+	margin-left: 38px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+#content {
+	margin: 0 30px 0 30px;
+}
+
+.apps-area {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+}
+
+.app-window {
+	margin-top: 5px;
+}
+
+.app-window:nth-of-type(odd) {
+	margin-right: 30px;
+}
+
+.app-desc,
+.app-image {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.app-desc {
+	width: 95px;
+	background-color: $panel-color;
+	padding: 10px 5px 5px 5px;
+	border-top-right-radius: 0;		
+	border-bottom-right-radius: 0;	
+}
+
+
+
+.app-image {
+	text-align: center;
+}
+
+.app-image img {
+	display: block;
+	height: 100%;
+	border: 8px solid $panel-color;
+	border-top-left-radius: 0;		
+}
+
+/* SIDEBAR */
+
+.logo {
+	height: 140px;
+}
+
+aside {
+	line-height: 1.6;
+	padding: 10px;
+}
+
+aside .panel {
+	margin-top: 30px;
+}
+
+
+

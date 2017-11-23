@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
 <body>
-	{% include header.html %}
+	<aside>
+		{% include sidebar.html %}
+	</aside>
 	<main>
-		<article>
-			{{ content }}
-		</article>
-		{% include footer.html %}
+		<nav>
+			<ul>
+				<li><a href="#">About |</a></li>
+				<li><a href="#">Apps |</a></li>
+				<li><a href="#">Articles</a></li>
+			</ul>
+		</nav>
+		<div id="content">
+			<div class="blurb-area hidden">
+				<h3>Lorem Ipsum sevit mit</h3>
+				<h3>Lorem Ipsum sevit mit</h3>
+				<h3>Lorem Ipsum sevit mit</h3>			
+			</div>
+			<div class="apps-area">
+				<div class="app-window">
+					<div class="app-desc">
+						<p>Lorem Ipsum nimbus</p>
+					</div><!--
+					--><div class="app-image">
+						<img src="http://placehold.it/300x250" alt="app" />
+					</div>
+				</div>
+				<div class="app-window">
+					<div class="app-desc">
+						<p>Lorem Ipsum nimbus</p>
+					</div><!--
+					--><div class="app-image">
+						<img src="http://placehold.it/300x250" alt="app" />
+					</div>
+				</div>
+				<div class="app-window">
+					<div class="app-desc">
+						<p>Lorem Ipsum nimbus</p>
+					</div><!--
+					--><div class="app-image">
+						<img src="http://placehold.it/300x250" alt="app" />
+					</div>
+				</div>
+				<div class="app-window">
+					<div class="app-desc">
+						<p>Lorem Ipsum nimbus</p>
+					</div><!--
+					--><div class="app-image">
+						<img src="http://placehold.it/300x250" alt="app" />
+					</div>
+				</div>				
+			</div>
+			<div class="articles-area hidden">
+			</div>
+		</div>
 	</main>
 </body>
 
