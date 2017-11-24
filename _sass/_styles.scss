@@ -42,10 +42,9 @@ a {
 
 nav {
 	margin-left: 38px;
-}
-
-nav li {
+	li {
 	display: inline-block;
+	}
 }
 
 #content {
@@ -84,13 +83,15 @@ nav li {
 
 .app-image {
 	text-align: center;
-}
-
-.app-image img {
+	img {
 	display: block;
 	height: 100%;
 	border: 8px solid $panel-color;
 	border-top-left-radius: 0;		
+	}
+	img:hover {
+	border: 8px solid white;
+	}
 }
 
 /* SIDEBAR */
