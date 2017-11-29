@@ -18,7 +18,7 @@ aside {
 }
 
 main {
-	padding-top: 130px;
+	padding-top: 200px;
 	overflow: hidden;
 }
 
@@ -28,7 +28,7 @@ main {
 	display: none;
 }
 
-.panel, img, .app-desc {
+.panel, .app-desc {
 	background-color: $panel-color;
 	border-radius: 4px;
 }
@@ -62,7 +62,7 @@ nav {
 }
 
 .app-window:nth-of-type(odd) {
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 .app-desc,
@@ -77,6 +77,9 @@ nav {
 	padding: 10px 5px 5px 5px;
 	border-top-right-radius: 0;		
 	border-bottom-right-radius: 0;	
+	p {
+		font-size: 12px;
+	}
 }
 
 
@@ -98,16 +101,53 @@ nav {
 
 .logo {
 	height: 140px;
+	margin-top: 20px;
 }
 
 aside {
-	line-height: 1.6;
 	padding: 10px;
 }
 
 aside .panel {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
+/* lOGO */
+#gridbox {
+  width: 240px;
+  height: 120px;
+	line-height: 0.6;
+	position: relative;
+	z-index: 1;
+}
+
+.cell {
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  display: inline-block;
+
+}
+
+.text {
+	position: absolute;
+	width: 240px;
+	height: 120px;
+	z-index: 2;
+}
+
+/* INFO */
+
+.info {
+	padding: 5px;
+}
+
+/* CONTACT */
+
+.contact {
+	margin-top: 30px;
+	padding: 5px;
+}
 
 
