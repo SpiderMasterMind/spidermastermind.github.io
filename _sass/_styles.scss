@@ -2,14 +2,15 @@
 
 body {
 	margin: 0;
-	font-family: $font-style;
+	font-family: $font-family;
+	line-height: 1.4;
 	-webkit-font-smoothing: antialiased;
 	background-color: $background-color;
 	color: $font-color;
 }
 
 h1, h2, h3, h4, {
-	font-family: $heading-font;
+	font-family:  $font-family;;
 }
 
 aside {
@@ -49,6 +50,8 @@ nav {
 
 #content {
 	margin: 0 30px 0 30px;
+	line-height: 1.2;
+	
 }
 
 .apps-area {
@@ -77,6 +80,9 @@ nav {
 	padding: 10px 5px 5px 5px;
 	border-top-right-radius: 0;		
 	border-bottom-right-radius: 0;	
+	h4 {
+		margin-bottom: 3px;
+	}
 	p {
 		font-size: 12px;
 	}
@@ -125,7 +131,7 @@ aside .panel {
   box-sizing: border-box;
   height: 10px;
   width: 10px;
-  background-color: green;
+  background-color: $logo-color;
   display: inline-block;
 
 }
@@ -140,14 +146,17 @@ aside .panel {
 /* INFO */
 
 .info {
-	padding: 5px;
+	padding: 10px;
 }
 
 /* CONTACT */
 
 .contact {
 	margin-top: 30px;
-	padding: 5px;
+	padding: 10px;
 }
 
+.contact a:hover {
+	color: $logo-color;
+}
 
