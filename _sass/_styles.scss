@@ -160,3 +160,67 @@ aside .panel {
 	color: $logo-color;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+	.apps-area {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.app-window:nth-of-type(odd){
+		margin: 0;
+	}
+
+	nav {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	aside {
+		float: none;
+	}
+
+	.logo {
+		height: 110px;
+		width: 240px;
+		margin: 0 auto;
+	}
+
+	main {
+		padding-top: 20px;
+	}
+
+	nav {
+		width: 240px;
+		text-align: left;
+		margin: auto;
+		padding: 0 0 5px 10px;
+	}
+
+	.info, .contact {
+		width: 240px;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+}
+
+@media (max-width: 470px) {
+	.app-desc {
+		width: auto;
+	}
+
+	aside {
+		width: 240px;
+		padding-left: 21px;
+	}
+
+	nav {
+		margin-left: 21px;
+	}
+}
+// less than 420 ish flatten
+
