@@ -9,9 +9,7 @@ body {
 	color: $font-color;
 }
 
-h1, h2, h3, h4, {
-	font-family:  $font-family;;
-}
+h1, h2, h3, h4, {	font-family:  $font-family; }
 
 aside {
 	float: left;
@@ -25,9 +23,7 @@ main {
 
 /* GENERAL STYLES */
 
-.hidden {
-	display: none;
-}
+.hidden {	display: none; }
 
 .panel, .app-desc {
 	background-color: $panel-color;
@@ -51,7 +47,6 @@ nav {
 #content {
 	margin: 0 30px 0 30px;
 	line-height: 1.2;
-	
 }
 
 .apps-area {
@@ -110,15 +105,12 @@ nav {
 	margin-top: 20px;
 }
 
-aside {
-	padding: 10px;
-}
+aside { padding: 10px; }
 
-aside .panel {
-	margin-top: 10px;
-}
+aside .panel { margin-top: 10px; }
 
 /* lOGO */
+
 #gridbox {
   width: 240px;
   height: 120px;
@@ -133,7 +125,6 @@ aside .panel {
   width: 10px;
   background-color: $logo-color;
   display: inline-block;
-
 }
 
 .text {
@@ -145,9 +136,7 @@ aside .panel {
 
 /* INFO */
 
-.info {
-	padding: 10px;
-}
+.info { padding: 10px; }
 
 /* CONTACT */
 
@@ -156,9 +145,7 @@ aside .panel {
 	padding: 10px;
 }
 
-.contact a {
-	margin-left: 5px;
-}
+.contact a { margin-left: 5px; }
 
 #github img,
 #twitter img{
@@ -166,33 +153,27 @@ aside .panel {
 	top: 3px;
 }
 
-
-.contact a:hover {
-	color: $logo-color;
-}
+.contact a:hover { color: $logo-color; }
 
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px) {
 	.apps-area {
 		flex-direction: column;
-		align-items: center;
-	}
-
-	.app-window:nth-of-type(odd){
-		margin: 0;
+		align-items: left;
 	}
 
 	nav {
-		text-align: center;
+		text-align: left;
 		margin-bottom: 5px;
 	}
 }
 
 @media (max-width: 980px) {
-
 	aside {
 		float: none;
+		width: 240px;
+		padding-left: 21px;
 	}
 
 	.logo {
@@ -205,34 +186,19 @@ aside .panel {
 		padding-top: 20px;
 	}
 
-	nav {
-		width: 240px;
-		text-align: left;
-		margin: auto;
-		padding: 0 0 5px 10px;
-	}
-
 	.info, .contact {
 		width: 240px;
 		margin: 0 auto;
 		text-align: left;
 	}
-
 }
 
 @media (max-width: 750px) {
-
-	.app-desc {
-		border-top-right-radius: 3px;
-	}
+	.app-desc { border-top-right-radius: 3px; }
 
 	aside {
 		width: 240px;
 		padding-left: 21px;
-	}
-
-	nav {
-		margin-left: 21px;
 	}
 }
 
