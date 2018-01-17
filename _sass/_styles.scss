@@ -190,6 +190,7 @@ aside .panel {
 }
 
 @media (max-width: 980px) {
+
 	aside {
 		float: none;
 	}
@@ -219,9 +220,8 @@ aside .panel {
 
 }
 
-@media (max-width: 740px) {
+@media (max-width: 750px) {
 	.app-desc {
-		width: auto;
 		border-top-right-radius: 3px;
 	}
 
@@ -234,5 +234,4 @@ aside .panel {
 		margin-left: 21px;
 	}
 }
-// less than 420 ish flatten
 
