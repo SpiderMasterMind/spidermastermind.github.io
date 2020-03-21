@@ -202,3 +202,18 @@ aside .panel { margin-top: 10px; }
 	}
 }
 
+h1 {
+	color: green;
+}
+
+.contenders {
+  display: flex;
+  flex-direction:column;
+  height:28%;
+  width: 100%;
+  border:1px solid black;
+}
+.prize {
+  border:1px solid black;
+}
+
